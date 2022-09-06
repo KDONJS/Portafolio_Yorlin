@@ -1,3 +1,5 @@
+   <?php $Year = date("Y"); ?>
+   
    <!-- Footer -->
    <footer class="footer white">
         <div class="container">
@@ -19,7 +21,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 my-2 text-center text-md-end">
-                    <p>© 2021 copyright <a href="#">KDON</a> </p>
+                    <p>© <?php echo $Year; ?> copyright <a href="#">KDON</a> </p>
                 </div>
             </div>
         </div>
